@@ -1,0 +1,9 @@
+name: grade
+main: fr.sicsou.grade.RolePlugin
+version: 1.0
+api-version: 1.21
+author: SicSou
+commands:
+  grade:
+    description: Change le grade d'un joueur
+    usage: /grade <GRADE> <JOUEUR>
