@@ -1,9 +1,17 @@
 name: grade
-main: fr.sicsou.grade.RolePlugin
 version: 1.0
+main: fr.sicsou.grade.RolePlugin
 api-version: 1.21
 author: SicSou
+description: Gestion simple des grades joueurs.
+
 commands:
-  grade:
-    description: Change le grade d'un joueur
-    usage: /grade <GRADE> <JOUEUR>
+  setgrade:
+    description: Définit le grade d'un joueur.
+    usage: /setgrade <joueur> <grade>
+    permission: grade.set
+
+permissions:
+  grade.set:
+    description: Permet de définir le grade d'un joueur.
+    default: op

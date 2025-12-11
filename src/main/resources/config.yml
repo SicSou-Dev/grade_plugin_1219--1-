@@ -1,0 +1,9 @@
+grades:
+  example_player: "Admin"
+
+messages:
+  prefix: "&7[&bGrades&7] "
+  grade_set: "&aLe grade de &e%player% &aa été défini sur &e%grade%&a."
+  no_player: "&cJoueur introuvable."
+  no_permission: "&cTu n'as pas la permission."
+  usage: "&cUtilisation: /setgrade <joueur> <grade>"
